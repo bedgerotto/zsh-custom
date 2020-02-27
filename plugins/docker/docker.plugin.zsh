@@ -1,0 +1,1 @@
+alias da='docker attach'
