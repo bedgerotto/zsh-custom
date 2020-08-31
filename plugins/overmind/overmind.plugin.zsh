@@ -1,0 +1,9 @@
+alias ovms="overmind s" # start, s            Run procfile
+alias ovmr="overmind r" # restart, r          Restart specified processes
+alias ovmi="overmind i" # stop, interrupt, i  Stop specified processes without quitting Overmind itself
+alias ovmc="overmind c" # connect, c          Connect to the tmux session of the specified process
+alias ovmq="overmind q" # quit, q             Gracefully quits Overmind. Same as sending SIGINT
+alias ovmk="overmind k" # kill, k             Kills all processes
+alias ovme="overmind e" # run, exec, e        Runs provided command within the Overmind environment
+alias ovmecho="overmind echo" # echo          Echoes output from master Overmind instance
+alias ovmh="overmind h" # help, h             Shows a list of commands or help for one command
